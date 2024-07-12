@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 50px;
+}
+
+.section {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.athletes-container {
+  display: flex;
+  overflow-x: hidden;
+}
+
+.athlete-container {
+  flex: 0 0 33.33%;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.athlete {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.medals {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.medal {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 50%;
+  background-color: #f2f2f2;
+  margin: 0 5px;
+}
+
+.medal.gold {
+  background-color: gold;
+}
+
+.medal.silver {
+  background-color: silver;
+}
+
+.medal.bronze {
+  background-color: #cd7f32;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.buttons button {
+  margin: 0 5px;
+}
+
+.trascendencia-button.green {
+  background-color: green;
+  color: white;
+}
+
+.trascendencia-resultados {
+  display: none;
+  margin-top: 10px;
+}
+
+.trascendencia-resultados.show {
+  display: block;
+}
+
+.resultado-joj {
+  display: none;
+  margin-top: 10px;
+}
+
+.resultado-joj.show {
+  display: block;
+}
