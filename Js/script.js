@@ -2,7 +2,7 @@ const ctx = document.getElementById("sedeSingapur").getContext('2d');
 const ctx1=document.getElementById("china").getContext("2d");
 const ctx2=document.getElementById("arg").getContext("2d");
 const ctx3=document.getElementById("cuba").getContext("2d");
-fetch('/datos-json/sede.json')
+fetch('datos/sede.json')
     .then(response => response.json())
     .then(data => {
         const a=data['Singapur']['2010']['Oro']
